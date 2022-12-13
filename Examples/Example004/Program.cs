@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-double numberA = 12;
-int numberВ = 5;
-double result = numberA / numberВ;
-Console.WriteLine(result);
+double numberA = new Random().Next(1,10);
+double numberB = new Random().Next(1,10);
+double result = numberA / numberB;
+Console.WriteLine(numberA, result);
+
